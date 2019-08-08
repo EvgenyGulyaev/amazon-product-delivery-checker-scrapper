@@ -1,0 +1,45 @@
+{
+  "name": "scrapper",
+  "version": "0.0.1",
+  "description": "It's package scrap you data from csv file, if delivery it's not Amazon save to file.csv",
+  "main": "parserCSV.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node sample.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvgenyGulyaev/amazon-product-delivery-checker-scrapper.git"
+  },
+  "keywords": [
+    "aws",
+    "amazon",
+    "saller"
+  ],
+  "author": "Evgeny Gulyaev (wardercompany@gmail.com)",
+  "readmeFilename": "README.md",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EvgenyGulyaev/amazon-product-delivery-checker-scrapper/issues"
+  },
+  "homepage": "https://github.com/EvgenyGulyaev/amazon-product-delivery-checker-scrapper#readme",
+  "dependencies": {
+    "csv-parser": "^2.3.0",
+    "csv-write-stream": "^2.0.0",
+    "proxy-lists": "^1.20.0",
+    "puppeteer": "^1.19.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "eslint-config-prettier": "4.0.0",
+    "eslint-plugin-prettier": "3.0.1"
+  }
+}
