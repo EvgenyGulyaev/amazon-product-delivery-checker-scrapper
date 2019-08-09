@@ -1,6 +1,6 @@
 {
-  "name": "scrapper",
-  "version": "0.0.1",
+  "name": "amazon-product-delivery-checker-crawler",
+  "version": "0.0.3",
   "description": "It's package scrap you data from csv file, if delivery it's not Amazon save to file.csv",
   "main": "parserCSV.js",
   "scripts": {

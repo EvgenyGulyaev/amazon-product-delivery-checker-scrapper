@@ -1,4 +1,4 @@
-const ParserCSV = require("./parserCSV");
+const ParserCSV = require("amazon-product-delivery-checker-crawler");
 const program = require("commander");
 
 program
